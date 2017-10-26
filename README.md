@@ -14,8 +14,8 @@ https://tnct-softech2017.github.io/
 Ruby、Bundlerのインストール後、
 
 ```
-$ git clone https://github.com/tnct-softech2016/tnct-softech2016.github.io
-$ cd tnct-softech2016.github.io
+$ git clone https://github.com/tnct-softech2017/tnct-softech2017.github.io
+$ cd tnct-softech2017.github.io
 $ bundle install
 $ bundle exec jekyll serve
 # Webブラウザで http://localhost:4000 を開く
