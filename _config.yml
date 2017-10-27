@@ -7,14 +7,14 @@
 
 # Site settings
 title: 新入生のためのC言語チュートリアル2017（苫高専ソフテク部）
-email: takuya.mk96@gmail.com
+email: achappy09tk@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   苫小牧高専ソフトウェアテクノロジー部1年生向けのC言語チュートリアル。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tnct-softech2017.github.io" # the base hostname & protocol for your site
 permalink: /c-tutorial/:title.html
-twitter_username: mktakuya
-github_username:  mktakuya
+twitter_username: T_aktk09
+github_username:  ty16115
 
 # Build settings
 markdown: kramdown
