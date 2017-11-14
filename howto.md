@@ -66,7 +66,7 @@ $ gcc -o hello hello.c
 
 ```
 $ cd
-$ cp /home/student/.cshrc /home/student/j17/自分の学籍番号+イニシャル/
+$ cp /home/student/.cshrc ~/
 $ source ~/.cshrc
 ```
 
