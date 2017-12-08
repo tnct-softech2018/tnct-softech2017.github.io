@@ -101,7 +101,7 @@ continue文は、繰り返しの処理を飛ばし、ブロックの先頭位置
 
 では、実際にcontinue文を使ったプログラムを書いてみましょう。これは、continue文を利用して1から100までの奇数の総和を求めるプログラムです。ファイル名はcontinue.cとします。
 
-{% highlight c lineos %}
+{% highlight c linenos %}
 #include <stdio.h>
 int main(void)
 {
