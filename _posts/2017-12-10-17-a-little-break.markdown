@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "17 ちょっと休憩"
+title: "ex ちょっと休憩"
 date: 2017-12-10 00:00:00 +0900
 
 ---
@@ -24,4 +24,4 @@ date: 2017-12-10 00:00:00 +0900
 </ul>
   
 </div></details><br>
-[回答](https://) ←作成中
+[回答例](https://gist.github.com/nt16145/107c3ea0adbf652e4dfb68b0f8b0d69c)
