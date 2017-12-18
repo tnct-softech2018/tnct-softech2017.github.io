@@ -28,7 +28,7 @@ date: 2017-12-10 00:00:00 +0900
 [回答例](https://gist.github.com/nt16145/107c3ea0adbf652e4dfb68b0f8b0d69c)
 
 ちなみに回答例のソースコードをコピーしたいときはjocalcにこのコマンドを打ち込んでみてください
-(未確認なのでできなかったらごめんなさい)
+(未確認なのでできなかったらごめんなさい)→プロキシに阻害されてできなかったので治す方法見つけます
 {% highlight shell %}
 $ cd softech_prog
 $ git clone https://gist.github.com/107c3ea0adbf652e4dfb68b0f8b0d69c.git
