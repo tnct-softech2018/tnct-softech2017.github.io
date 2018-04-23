@@ -62,8 +62,8 @@ char code;
 
 {% highlight c %}
 // 変数への代入の例
-height = 167;
-code = 'T';
+height = 164;
+code = 'K';
 {% endhighlight %}
 
 変数に記憶されたデータ（変数の中身）のことを、***変数の値***といいます。
@@ -72,8 +72,8 @@ code = 'T';
 
 {% highlight c %}
 // 変数の初期化の例
-int height = 167;
-char code = 'T';
+int height = 164;
+char code = 'K';
 {% endhighlight %}
 
 また、一度データを代入した変数に、再度別のデータを代入することもできますし、変数に変数の値を代入することもできます。
@@ -82,13 +82,14 @@ char code = 'T';
 {% highlight c %}
 int nenrei;
 int birth_year;
-int age = 19;
+int age = 17;
 // 一度データを代入した変数に、再度別のデータを代入する
-age = 20;
+age = 18;
 
 // 変数に変数の値を代入する
 nenrei = age;
-birth_year = 2016 - age; // 2016年 - 年齢で生年がわかる
+birth_year = 2018 - age; 
+// 2018年 - 年齢で生年がわかる
 {% endhighlight %}
 
 ### 変数を使う
