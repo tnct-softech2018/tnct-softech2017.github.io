@@ -17,13 +17,14 @@ printf("The answer is %d\n", 計算式); などとやっても大丈夫です。
 
 ## 足し算
 まずは、基本中の基本である足し算からやっていきましょう。
-ファイル名は、 addition.c とします。
+ファイル名は、calculation.cとします。
 
 {% highlight c linenos %}
 #include <stdio.h>
 int main(void)
 {
-    printf("%d\n", 10 + 3);
+    // 足し算の結果を出力
+    printf("10 + 3 = %d\n", 10 + 3);
     return 0;
 }
 {% endhighlight %}
@@ -31,67 +32,96 @@ int main(void)
 
 ## 引き算
 次に、引き算をやってみましょう。
-ファイル名は、 subtraction.c とします。
+先程作ったプログラムに引き算の結果の出力も追加しましょう。
 
 {% highlight c linenos %}
 #include <stdio.h>
 int main(void)
 {
-    printf("%d\n", 10 - 3);
+    // 足し算の結果を出力
+    printf("10 + 3 = %d\n", 10 + 3);
+    
+    // 引き算の結果を出力
+    printf("10 - 3 = %d\n", 10 - 3);
+
     return 0;
 }
 {% endhighlight %}
 
 ## 乗算
 乗算（掛け算）をやっていきましょう。
-ファイル名は、 multiplication.c とします。
+演算子（記号）は、「 * 」を使います。
 
 {% highlight c linenos %}
 #include <stdio.h>
 int main(void)
 {
-    printf("%d\n", 4 * 3);
+    // 足し算の結果を出力
+    printf("10 + 3 = %d\n", 10 + 3);
+    
+    // 引き算の結果を出力
+    printf("10 - 3 = %d\n", 10 - 3);
+
+    // 乗算の結果を出力    
+    printf("4 * 3 = %d\n", 4 * 3);
+
     return 0;
 }
 {% endhighlight %}
 
 ## 除算
 除算（割り算）です。
+演算子（記号）は、「 / 」を使います。
 
 まずは、割り切れるときをやりしょう。
-ファイル名は、division.c とします。
 
 {% highlight c linenos %}
 #include <stdio.h>
 int main(void)
 {
-    printf("%d\n", 10 / 2);
+    printf("10 + 3 = %d\n", 10 + 3);
+    
+    // 引き算の結果を出力
+    printf("10 - 3 = %d\n", 10 - 3);
+
+    // 乗算の結果を出力    
+    printf("4 * 3 = %d\n", 4 * 3);
+    
+    // 整数同士の除算で割り切れる場合の出力
+    printf("%10 / 2 = %d\n", 10 / 2);
+
     return 0;
 }
 {% endhighlight %}
 
 整数同士の割り算で割り切れない時は、あまりは表示されません。
-ファイル名は、division2.c とします。
 
 {% highlight c linenos %}
 #include <stdio.h>
 int main(void)
 {
-    printf("%d\n", 10 / 3);
+    /* (中略) */
+
+    // 整数同士の除算で割り切れない場合の出力
+    printf("10 / 3 = %d\n", 10 / 3);
+
     return 0;
 }
 {% endhighlight %}
 
 ## 剰余算
 あまりを計算したいときは、剰余算をします。
-演算子（記号）は、 % を使います。
-ファイル名は、 mod.c とします。
+演算子（記号）は、「 % 」を使います。
 
 {% highlight c linenos %}
 #include <stdio.h>
 int main(void)
 {
-    printf("%d\n", 10 % 3);
+    /* (中略) */
+
+    // 剰余算の結果を出力
+    printf("10 % 3 = %d\n", 10 % 3);
+
     return 0;
 }
 {% endhighlight %}
