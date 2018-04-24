@@ -65,6 +65,7 @@ $ gcc -o hello hello.c
 もし初めてjocalcでコンパイルする時、変なエラーが出て、コンパイルできない時は以下のコマンドを打ち込んでみましょう
 
 ```
+$ tcsh
 $ cd
 $ cp /home/student/.cshrc ~/
 $ source ~/.cshrc
