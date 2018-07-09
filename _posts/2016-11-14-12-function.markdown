@@ -148,7 +148,7 @@ int main(void)
 
 void func(int x)
 {
-        int y;
+        int y,a = 3;
 
         printf("func()関数にて、引数としてx = %dを受け取りました。\n", x);
 
